@@ -1,0 +1,10 @@
+{
+  // 告诉Babel，编译JS代码时，使用这两个preset来编译
+  "presets": ["es2015", "react"],
+  // 在开发环境时，才启用HMR功能
+  "env": {
+    "development": {
+      "presets": ["react-hmre"]
+    }
+  }
+}

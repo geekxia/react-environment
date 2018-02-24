@@ -1,0 +1,9 @@
+{
+  // 指定继承airbnb提供的ESLint格式规则
+  "extends": "airbnb",
+  // 修改默认的lint规则
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "linebreak-style": [0]
+  }
+}
